@@ -1,0 +1,7 @@
+tup=(23,45,67,)
+print(tup)
+lis=list(tup)
+a=int(input("Enter item"))
+lis.append(a)
+tup=tuple(lis)
+print(tup)
